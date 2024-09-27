@@ -6,14 +6,14 @@ public class Exercise03 {
     // TODO ↓: Tiene que devolver el siguiente mensaje: "Hola. Bienvenido " y la cadena de textos que se le pasa por parámetro.
     public static String greetings(String user) {
 
-        return "Hola.Bienvenido " + user;
+        return "Hola. Bienvenido " + user;
     }
 
     // Esto es una funcion, ya que devuelve un valor
     // TODO ↓: Tiene que devolver el siguiente mensaje: "Ups. No pudimos validar tus datos. Tu nombre de usuario no es " y la cadena de texto que se le pasa por parámetro
     public static String error(String user) {
 
-        return "Ups. No pudimos validar tus datos. Tu nombre de usuario es " + user;
+        return "Ups. No pudimos validar tus datos. Tu nombre de usuario no es " + user;
     }
 
     //Esto es un procedimiento, ya que no devuelve un valor
